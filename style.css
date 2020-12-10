@@ -1,0 +1,186 @@
+/*
+-- FONTS
+font-family: 'Alatsi', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*
+--------------------
+-------------------- HTML TAGS
+--------------------
+*/
+
+body{
+    margin: 0 auto !important;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h1, h2, h3 {
+    color: #121212;
+    text-transform: uppercase;
+}
+
+h1{
+    font-family: 'Alatsi', sans-serif;
+    font-size: 45px;
+    letter-spacing: 6px;
+    padding-top: 20px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-underline-position:under;
+}
+
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+h6.email-too-long{
+    font-size: 10px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+hr{
+    margin: 20px 25px;
+    border: 2px solid #f5f3f4;
+}
+
+/*
+--------------------
+-------------------- CLASSES
+--------------------
+*/
+.color-white{
+    color: #f5f3f4;
+}
+/*
+-------
+------- LEFT SIDE
+-------
+*/
+.left-container{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #353535;
+    z-index: 999;
+    /* BOX SHADOW Generator (cssmatic.com) */
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.picture-container{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.picture-profile{
+    width: 100%;
+    border-radius: 128px;
+    /* BOX SHADOW Generator (cssmatic.com) */
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+.profile-text{
+    text-align: center;
+    margin-top: 25px;
+}
+.left-block{
+    margin-top: 30px;
+    color: #f5f3f4;
+    text-align: center;
+}
+.icon-left-style{
+    font-size: 30px;
+}
+/*
+-------
+------- RIGHT SIDE
+-------
+*/
+.right-container{
+    position: absolute;
+    width: 100%;
+}
+.header-container{
+    padding-left: 250px;
+    text-align: center;
+    background-color: #f5f3f4;
+}
+.curriculum-container{
+    padding-top: 30px;
+    padding-left: 300px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.black-div{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 5px;
+    width: 100%;
+    background-color: #121212;
+}
+.right-block{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right-icon{
+    padding-top: 12px;
+    width: 30px;
+    text-align: center;
+}
+.right-text{
+    padding-left: 30px;
+    line-height: 1.5;
+}
+.icon-style{
+    font-size: 25px;
+}
+
+
+
